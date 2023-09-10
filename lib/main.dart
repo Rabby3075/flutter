@@ -24,6 +24,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          elevation: 70.0,
+          toolbarHeight: 100.0,
           backgroundColor: Colors.green,
           centerTitle: true,
           title: Text('Home'),
